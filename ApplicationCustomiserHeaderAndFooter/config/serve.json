@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://sharepointrrs.sharepoint.com/sites/rajeev/sales",
+      "customActions": {
+        "49c38a8a-5ba4-47cf-b7e2-f2c58c42a4c4": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "headerFooter": {
+      "pageUrl": "https://sharepointrrs.sharepoint.com/sites/rajeev/sales",
+      "customActions": {
+        "49c38a8a-5ba4-47cf-b7e2-f2c58c42a4c4": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
